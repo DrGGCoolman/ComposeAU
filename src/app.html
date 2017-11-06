@@ -1,3 +1,20 @@
 <template>
-  <h1>${message}</h1>
+  <require from='./styles/main.css'></require>
+  <nav>
+    <compose view-model="./_Navbar/Navbar" model.bind="navbarData"></compose>
+    <compose class="DT" view-model="./_DateTime/DateTime"></compose>
+
+  </nav>
+  <div class="content">
+    <h1>Content Header</h1>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+    <p>lots of content</p>
+  </div>
 </template>
