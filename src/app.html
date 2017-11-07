@@ -1,20 +1,16 @@
 <template>
   <require from='./styles/main.css'></require>
-  <nav>
-    <compose view-model="./_Navbar/Navbar" model.bind="navbarData"></compose>
-    <compose class="DT" view-model="./_DateTime/DateTime"></compose>
 
-  </nav>
-  <div class="content">
-    <h1>Content Header</h1>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-    <p>lots of content</p>
-  </div>
+
+  <compose view-model="./_Navbar/Navbar"
+           model.bind="navbarData"></compose>
+
+  <compose view-model="./_DateTime/DateTime"></compose>
+
+  <!-- <input type="checkbox"  checked.bind="show"> </input> -->
+
+  <compose view-model="./_ContentA/ContentA" ></compose>
+  <compose view-model="./_ContentB/ContentB" ></compose>
+
+
 </template>

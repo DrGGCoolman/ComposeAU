@@ -1,0 +1,18 @@
+.contentA{
+    
+        background-color: rgb(244, 152, 152);
+        margin: 20px;
+        border-style: solid;
+       text-align: left;
+    }
+
+    .contentA p{
+
+        padding-left: 35px
+
+    }
+    .contentA h1{
+        
+                padding: 10px
+        
+            }

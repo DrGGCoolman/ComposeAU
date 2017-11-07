@@ -2,13 +2,13 @@
 
 export class App {
   navbarData;
-  
+  show: boolean = true;
   constructor() {
     this.navbarData = {
-      pages: ['home', 'P1', 'P2', 'Px']
+      pages: ['Home', 'Page1', 'Page2', 'Pagex']
 
     };
-
   }
-
 }
+
+
